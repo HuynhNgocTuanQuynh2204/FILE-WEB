@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+    <title>Form Submit to Send Email</title>
+</head>
+<body>
+ <div class="form-container">
+    <form action="" method="POST" name="emailContact">
+        <div class="input-row">
+            <label for="">Name <em>*</em></label>
+            <input type="text" name="username" id="" required>
+        </div>
+        <div class="input-row">
+            <label for="">Email <em>*</em></label>
+            <input type="email" name="useremail" id="" required>
+        </div>
+        <div class="input-row">
+            <label for="">Phone <em>*</em></label>
+            <input type="tel" name="userphone" id="" required>
+        </div>
+        <div class="input-row">
+            <label for="">Message <em>*</em></label>
+          <textarea name="usermessage" required></textarea>
+        </div>
+        <div class="input-row">
+            <input type="submit" name="send"  value="Submit">
+            <div class="success">
+                <strong>Success</strong>
+            </div>
+        </div>
+    </form>
+ </div>   
+</body>
+</html>
